@@ -73,14 +73,14 @@ def calculate_player_scores(df):
         ,
 
         "GK": {
-          "Acc": 0, "Pac": 0, "Agi": 90, "Ant": 100, "Cmp": 90, "Dec": 90, "Det": 0,
-          "Dri": 0, "Fin": 0,  "Fir": 0, "OtB": 0, "Tec": 0, "Pas": 90, "Str": 60,
-          "Agg": 50, "Sta": 50, "Wor": 50, "Vis": 50, "Tck": 30, "Mar": 30,
-          "Bal": 50, "Bra": 60, "Com": 100, "Cor": 0, "Cro": 0, "Cmd": 100, "Cnt": 100,
-          "Ecc": 50, "Fla": 0, "Fre": 40, "Han": 100, "Hea": 30, "Jum": 90,
-          "Kic": 80, "Ldr": 40, "Lon": 0, "L Th": 0, "Nat": 50, "Pen": 0, "Pos": 90,
-          "Pun": 40, "Ref": 100, "1v1": 100, "TRO": 100, "Thr": 80, "Tea": 50, "Aer": 90
-        }
+          "Acc": 0, "Pac": 0, "Agi": 0, "Ant": 0, "Cmp": 0, "Dec": 100, "Det": 0,
+          "Dri": 0, "Fin": 0, "Fir": 0, "OtB": 0, "Tec": 0, "Pas": 0, "Str": 0,
+          "Agg": 0, "Sta": 0, "Wor": 0, "Vis": 0, "Tck": 0, "Mar": 0,
+          "Bal": 0, "Bra": 0, "Com": 0, "Cor": 0, "Cro": 0, "Cmd": 0, "Cnt": 0,
+          "Ecc": 0, "Fla": 0, "Fre": 0, "Han": 0, "Hea": 0, "Jum": 100,
+          "Kic": 0, "Ldr": 0, "Lon": 0, "L Th": 0, "Nat": 0, "Pen": 0, "Pos": 100,
+          "Pun": 0, "Ref": 100, "1v1": 100, "TRO": 0, "Thr": 0, "Tea": 0, "Aer": 100
+      }
     }
 
     for role, weights in roles_weights.items():
