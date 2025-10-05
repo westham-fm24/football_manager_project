@@ -3,64 +3,70 @@
 # ─── Performance thresholds by metric ────────────────────────────────
 
 str_metrics = {
-    "xG/90": {"Elite": "≥ 1.02", "Good": "0.55 – 1.01", "Average": "< 0.55"},
-    "Shot/90": {"Elite": "≥ 3.70", "Good": "2.13 – 3.69", "Average": "< 2.13"},
-    "ShT/90": {"Elite": "≥ 2.08", "Good": "1.06 – 2.07", "Average": "< 1.06"},
-    "NP-xG/90": {"Elite": "≥ 0.57", "Good": "0.31 – 0.56", "Average": "< 0.31"},
-    "Sprints/90": {"Elite": "≥ 8.85", "Good": "6.95 – 8.84", "Average": "< 6.95"},
-    "Poss Lost/90": {"Elite": "≤ 3.93", "Good": "3.94 – 8.63", "Average": "> 8.63"},
+    "xG/90": {"Elite": "≥ 0.71", "Good": "0.56 – 0.70", "Average": "< 0.56"},
+    "Shot/90": {"Elite": "≥ 5.31", "Good": "3.64 – 5.30", "Average": "< 3.64"},
+    "ShT/90": {"Elite": "≥ 3.02", "Good": "2.14 – 3.02", "Average": "< 2.14"},
+    "NP-xG/90": {"Elite": "≥ 0.69", "Good": "0.55 – 0.68", "Average": "< 0.55"},
+    "Sprints/90": {"Elite": "≥ 21.60", "Good": "16.29 – 21.59", "Average": "< 16.29"},
+    "Poss Lost/90": {"Elite": "≤ 2.51", "Good": "2.52 – 4.05", "Average": "> 4.05"},
 }
 
 w_metrics = {
-    "xG/90": {"Elite": "≥ 0.46", "Good": "0.33 – 0.45", "Average": "< 0.33"},
-    "xA/90": {"Elite": "≥ 0.40", "Good": "0.33 – 0.39", "Average": "< 0.33"},
-    "Drb/90": {"Elite": "≥ 2.78", "Good": "2.02 – 2.77", "Average": "< 2.02"},
-    "ShT/90": {"Elite": "≥ 1.49", "Good": "1.18 – 1.48", "Average": "< 1.18"},
-    "K Ps/90": {"Elite": "≥ 3.54", "Good": "2.23 – 3.53", "Average": "< 2.23"},
-    "Poss Lost/90": {"Elite": "≤ 6.55", "Good": "6.56 – 14.01", "Average": "> 14.01"},
+    "xG/90":       {"Elite": "≥ 0.53",  "Good": "0.37 – 0.52",  "Average": "< 0.37"},
+    "xA/90":       {"Elite": "≥ 0.47",  "Good": "0.34 – 0.46",  "Average": "< 0.34"},
+    "Drb/90":      {"Elite": "≥ 3.16",  "Good": "2.22 – 3.15",  "Average": "< 2.22"},
+    "ShT/90":      {"Elite": "≥ 1.73",  "Good": "1.23 – 1.72",  "Average": "< 1.23"},
+    "K Ps/90":     {"Elite": "≥ 3.98",  "Good": "2.49 – 3.97",  "Average": "< 2.49"},
+    "Poss Lost/90":{"Elite": "≤ 5.74",  "Good": "5.75 – 11.88", "Average": "> 11.88"},
 }
 
 cm_metrics = {
-    "Pr passes/90": {"Elite": "≥ 9.87", "Good": "6.28 – 9.86", "Average": "< 6.28"},
-    "Pas %": {"Elite": "≥ 90%", "Good": "87% – 89%", "Average": "< 87%"},
-    "xA/90": {"Elite": "≥ 0.32", "Good": "0.21 – 0.31", "Average": "< 0.21"},
-    "Drb/90": {"Elite": "≥ 3.27", "Good": "1.24 – 3.26", "Average": "< 1.24"},
-    "Tck/90": {"Elite": "≥ 3.00", "Good": "2.00 – 2.99", "Average": "< 2.00"},
-    "Poss Lost/90": {"Elite": "≤ 7.20", "Good": "7.21 – 12.70", "Average": "> 12.70"},
+    "Pr passes/90": {"Elite": "≥ 10.12", "Good": "6.84 – 10.11", "Average": "< 6.84"},
+    "Pas %":        {"Elite": "≥ 92%",   "Good": "88% – 91%",    "Average": "< 88%"},
+    "xA/90":        {"Elite": "≥ 0.41",  "Good": "0.25 – 0.40",  "Average": "< 0.25"},
+    "Drb/90":       {"Elite": "≥ 2.73",  "Good": "1.45 – 2.72",  "Average": "< 1.45"},
+    "Tck/90":       {"Elite": "≥ 3.38",  "Good": "2.09 – 3.37",  "Average": "< 2.09"},
+    "Int/90":       {"Elite": "≥ 2.61",  "Good": "2.22 – 2.60",  "Average": "< 2.22"},
+    "Blk/90":       {"Elite": "≥ 0.67",  "Good": "0.42 – 0.66",  "Average": "< 0.42"},
+    "Poss Lost/90": {"Elite": "≤ 5.93",  "Good": "5.94 – 9.88",  "Average": "> 9.88"},
 }
 
 dm_metrics = {
-    "Tck/90": {"Elite": "≥ 3.41", "Good": "2.00 – 3.40", "Average": "< 2.00"},
-    "Int/90": {"Elite": "≥ 2.47", "Good": "2.15 – 2.46", "Average": "< 2.15"},
-    "Blk/90": {"Elite": "≥ 0.61", "Good": "0.40 – 0.60", "Average": "< 0.40"},
-    "Pas %": {"Elite": "≥ 93%", "Good": "90% – 92%", "Average": "< 90%"},
-    "Pr passes/90": {"Elite": "≥ 9.00", "Good": "6.17 – 8.99", "Average": "< 6.17"},
-    "Poss Lost/90": {"Elite": "≤ 5.22", "Good": "5.23 – 7.53", "Average": "> 7.53"},
+    "Pr passes/90": {"Elite": "≥ 10.12", "Good": "6.84 – 10.11", "Average": "< 6.84"},
+    "Pas %":        {"Elite": "≥ 92%",   "Good": "88% – 91%",    "Average": "< 88%"},
+    "xA/90":        {"Elite": "≥ 0.41",  "Good": "0.25 – 0.40",  "Average": "< 0.25"},
+    "Drb/90":       {"Elite": "≥ 2.73",  "Good": "1.45 – 2.72",  "Average": "< 1.45"},
+    "Tck/90":       {"Elite": "≥ 3.38",  "Good": "2.09 – 3.37",  "Average": "< 2.09"},
+    "Int/90":       {"Elite": "≥ 2.61",  "Good": "2.22 – 2.60",  "Average": "< 2.22"},
+    "Blk/90":       {"Elite": "≥ 0.67",  "Good": "0.42 – 0.66",  "Average": "< 0.42"},
+    "Poss Lost/90": {"Elite": "≤ 5.93",  "Good": "5.94 – 9.88",  "Average": "> 9.88"},
 }
 
 cd_metrics = {
-    "Int/90": {"Elite": "≥ 2.47", "Good": "2.26 – 2.46", "Average": "< 2.26"},
-    "Pas %": {"Elite": "≥ 93%", "Good": "87% – 92%", "Average": "< 87%"},
-    "Poss Lost/90": {"Elite": "≤ 5.22", "Good": "5.23 – 10.73", "Average": "> 10.73"},
-    "Hdrs W/90": {"Elite": "≥ 4", "Good": "3.5 – 3.9", "Average": "< 3.5"},
-    "Poss Won/90": {"Elite": "≥ 14.38", "Good": "12.74 – 14.37", "Average": "< 12.74"},
+    "Int/90":       {"Elite": "≥ 2.63",  "Good": "2.31 – 2.62",  "Average": "< 2.31"},
+    "Pas %":        {"Elite": "≥ 94%",   "Good": "89% – 93%",    "Average": "< 89%"},
+    "Poss Lost/90": {"Elite": "≤ 4.92",  "Good": "4.93 – 9.61",  "Average": "> 9.61"},
+    "Hdrs W/90":    {"Elite": "≥ 4.28",  "Good": "3.71 – 4.27",  "Average": "< 3.71"},
+    "Poss Won/90":  {"Elite": "≥ 15.04", "Good": "13.15 – 15.03","Average": "< 13.15"},
 }
 
+
 fb_metrics = {
-    "Pr passes/90": {"Elite": "≥ 8.5", "Good": "7.5 – 8.49", "Average": "< 7.5"},
-    "Drb/90": {"Elite": "≥ 1.4", "Good": "0.9 – 1.39", "Average": "< 0.9"},
-    "Tck/90": {"Elite": "≥ 2.8", "Good": "2.4 – 2.79", "Average": "< 2.4"},
-    "Cr C/A": {"Elite": "≥ 23%", "Good": "21% – 22%", "Average": "< 21%"},
-    "Sprints/90": {"Elite": "≥ 24.5", "Good": "22 – 24.4", "Average": "< 22"},
-    "Poss Lost/90": {"Elite": "≤ 10.9", "Good": "11 – 11.5", "Average": "> 11.5"},
+    "Pr passes/90": {"Elite": "≥ 9.12", "Good": "7.64 – 9.11", "Average": "< 7.64"},
+    "Drb/90":       {"Elite": "≥ 1.66", "Good": "1.08 – 1.65", "Average": "< 1.08"},
+    "Tck/90":       {"Elite": "≥ 3.02", "Good": "2.51 – 3.01", "Average": "< 2.51"},
+    "Cr C/A":       {"Elite": "≥ 25%",  "Good": "22% – 24%",   "Average": "< 22%"},
+    "Sprints/90":   {"Elite": "≥ 25.8", "Good": "22.9 – 25.7", "Average": "< 22.9"},
+    "Poss Lost/90": {"Elite": "≤ 10.3", "Good": "10.4 – 11.1", "Average": "> 11.1"},
 }
 
 gk_metrics = {
-    "xSv %": {"Elite": "≥ 0.83", "Good": "0.80 – 0.82", "Average": "< 0.80"},
-    "Pas %": {"Elite": "≥ 92%", "Good": "90% – 91%", "Average": "< 90%"},
-    "Poss Lost/90": {"Elite": "≤ 3.11", "Good": "3.12 – 4.15", "Average": "> 4.15"},
-    "Pr passes/90": {"Elite": "≥ 1.56", "Good": "1.41 – 1.55", "Average": "< 1.41"},
+    "xSv %":         {"Elite": "≥ 0.86", "Good": "0.82 – 0.85", "Average": "< 0.82"},
+    "Pas %":         {"Elite": "≥ 93%",  "Good": "90% – 92%",   "Average": "< 90%"},
+    "Poss Lost/90":  {"Elite": "≤ 2.94", "Good": "2.95 – 4.12", "Average": "> 4.12"},
+    "Pr passes/90":  {"Elite": "≥ 1.78", "Good": "1.52 – 1.77", "Average": "< 1.52"},
 }
+
 
 # ─── Unified Metrics Map ──────────────────────────────
 metrics_map = {
