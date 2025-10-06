@@ -15,7 +15,9 @@ from data_prep.scoring import calculate_player_scores
 from metrics.evaluation import adjust_player_scores, role_performance_metrics
 from metrics.thresholds import ideal_performance_metrics
 from html_report.generate import generate_html, save_and_open_html
-
+from metrics.explain import generate_explain_html
+explain_dir = os.path.join(os.getcwd(), "html_report", "output_explain")
+generate_explain_html(squad, explain_dir)
 
 def main():
     # Step 1: move new export files into working directory
